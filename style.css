@@ -1,0 +1,19 @@
+body {
+   background: rgb(179, 255, 220);
+}
+
+header {
+   text-align: center;
+   font-family: Lobster, serif;
+}
+
+main {
+   background: wheat;
+   width: 50%;
+   height: 500px;
+   position: relative;
+   left: 25%;
+   text-align: center;
+
+}
+
