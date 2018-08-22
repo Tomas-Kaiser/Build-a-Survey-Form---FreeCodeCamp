@@ -14,11 +14,11 @@ main {
    text-align: center;
    margin: 0 auto;
    padding-top: 25px;
+   padding: 5px;
 }
 
 
 .rowTab {
-   margin: 15px;
    text-align: center;
 }
 
@@ -29,8 +29,7 @@ main {
 }
 
 .rightTab {
-   float: right;
+   display: inline;
    text-align: left;
-   width: 50%;
 }
 
