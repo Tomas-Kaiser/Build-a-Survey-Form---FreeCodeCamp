@@ -1,5 +1,6 @@
 body {
    background: rgb(179, 255, 220);
+   font-size: 1.2em;
 }
 
 header {
@@ -9,27 +10,33 @@ header {
 
 main {
    background: wheat;
+   border: 3px solid black;
+   border-radius: 30px;
    width: 75%;
    max-width: 900px;
    text-align: center;
    margin: 0 auto;
    padding-top: 25px;
-   padding: 5px;
+   padding: 10px;
 }
 
-
 .rowTab {
-   text-align: center;
+   display: flex;
+   justify-content: center;
 }
 
 .labels {
    width: 45%;
-   float: left;
    text-align: right;
+
 }
 
 .rightTab {
-   display: inline;
    text-align: left;
+   display: inline-block;
+   padding: 5px;
+   width: 40%;
 }
+
+
 

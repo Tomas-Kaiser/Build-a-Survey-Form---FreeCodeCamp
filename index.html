@@ -29,6 +29,66 @@
                <div class="labels"><label for="age">*Age</label></div>
                <div class="rightTab"><input type="text" id="age"></div>
          </div>
+
+         <div class="rowTab">
+            <div class="labels"><label for="current-role">Which option best describes your current role?</label></div>
+            <div class="rightTab">
+                  <input type="text" id="current-role" name="roles" list="current-roles">
+                  <datalist id="current-roles">
+                        <option value="Student"></option>
+                        <option value="Full time job"></option>
+                        <option value="Full time learner"></option>
+                        <option value="Prefer not to say"></option>
+                        <option value="Other"></option>
+                  </datalist>
+            </div>
+         </div>
+
+         <div class="rowTab">
+                  <div class="labels"><label for="recommendation">*How likely is that you would recommend freeCodeCamp to a friend?</label></div>
+                  <div class="rightTab">
+                        <input type="radio" id="recommendation"  name="rec" value="definitely">Definitely <br>
+                        <input type="radio" id="recommendation"  name="rec" value="maybe">Maybe <br>
+                        <input type="radio" id="recommendation"  name="rec" value="not sure">Not sure <br>
+                  </div>
+         </div>
+
+         <div class="rowTab">
+                  <div class="labels"><label for="like">Which option best describes your current role?</label></div>
+                  <div class="rightTab">
+                        <select id="like">
+                              <option value="Challenges">Challenges</option>
+                              <option value="Projects">Projects</option>
+                              <option value="Community">Community</option>
+                              <option value="Open source">Open source</option>
+                        </select>
+                  </div>
+         </div>
+
+         <div class="rowTab">
+                  <div class="labels"><label for="improvement">*How likely is that you would recommend freeCodeCamp to a friend?</label></div>
+                  <div class="rightTab">
+                        <input type="checkbox" id="improvement"  name="reco" value="Front-end Projects">Front-end Projects <br>
+                        <input type="checkbox" id="improvement"  name="reco" value="Back-end Projects">Back-end Projects <br>
+                        <input type="checkbox" id="improvement"  name="reco" value="Data Visualization">Data Visualization <br>
+                        <input type="checkbox" id="improvement"  name="reco" value="Challenges">Challenges <br>
+                        <input type="checkbox" id="improvement"  name="reco" value="Open Source Community">Open Source Community <br>
+                        <input type="checkbox" id="improvement"  name="reco" value="Gitter help rooms">Gitter help rooms <br>
+                        <input type="checkbox" id="improvement"  name="reco" value="Videos">Videos <br>
+                        <input type="checkbox" id="improvement"  name="reco" value="City Meetups">City Meetups <br>
+                        <input type="checkbox" id="improvement"  name="reco" value="Wiki">Wiki <br>
+                        <input type="checkbox" id="improvement"  name="reco" value="Forum">Forum <br>
+                        <input type="checkbox" id="improvement"  name="reco" value="Additional Courses">Additional Courses <br>
+                  </div>
+         </div>
+
+         <div class="rowTab">
+                  <div class="labels"><label for="comment">Any Comments or Suggestions?</label></div>
+                  <div class="rightTab"><textarea name="comments" id="comment" cols="30" rows="5"></textarea></div>
+         </div>
+
+         <button type="submit">Submit</button>
+
       </form>
    </main>
 </body>
