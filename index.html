@@ -17,23 +17,23 @@
       <form action="">
          <div class="rowTab">
             <div class="labels"><label for="name">*Name:</label></div>
-            <div class="rightTab"><input type="text" id="name"></div>
+            <div class="rightTab"><input type="text" id="name" class="input-field" placeholder="Enter your name" required></div>
          </div>
 
          <div class="rowTab">
                <div class="labels"><label for="email">*E-mail address:</label></div>
-               <div class="rightTab"><input type="text" id="email"></div>
+               <div class="rightTab"><input type="text" id="email" class="input-field"placeholder="Enter your Email" required></div>
          </div>
 
          <div class="rowTab">
-               <div class="labels"><label for="age">*Age</label></div>
-               <div class="rightTab"><input type="text" id="age"></div>
+               <div class="labels"><label for="age">*Age:</label></div>
+               <div class="rightTab"><input type="text" id="age" class="input-field" placeholder="Enter your age" required></div>
          </div>
 
          <div class="rowTab">
             <div class="labels"><label for="current-role">Which option best describes your current role?</label></div>
             <div class="rightTab">
-                  <input type="text" id="current-role" name="roles" list="current-roles">
+                  <input type="text" id="current-role" name="roles" list="current-roles" class="input-field" placeholder="Enter your role">
                   <datalist id="current-roles">
                         <option value="Student"></option>
                         <option value="Full time job"></option>
@@ -56,7 +56,7 @@
          <div class="rowTab">
                   <div class="labels"><label for="like">Which option best describes your current role?</label></div>
                   <div class="rightTab">
-                        <select id="like">
+                        <select id="like" class="select-field">
                               <option value="Challenges">Challenges</option>
                               <option value="Projects">Projects</option>
                               <option value="Community">Community</option>
@@ -66,8 +66,8 @@
          </div>
 
          <div class="rowTab">
-                  <div class="labels"><label for="improvement">*How likely is that you would recommend freeCodeCamp to a friend?</label></div>
-                  <div class="rightTab">
+                  <div class="labels"><label for="improvement">How likely is that you would recommend freeCodeCamp to a friend?</label></div>
+                  <div class="rightTab" id="checkbox">
                         <input type="checkbox" id="improvement"  name="reco" value="Front-end Projects">Front-end Projects <br>
                         <input type="checkbox" id="improvement"  name="reco" value="Back-end Projects">Back-end Projects <br>
                         <input type="checkbox" id="improvement"  name="reco" value="Data Visualization">Data Visualization <br>
@@ -84,7 +84,7 @@
 
          <div class="rowTab">
                   <div class="labels"><label for="comment">Any Comments or Suggestions?</label></div>
-                  <div class="rightTab"><textarea name="comments" id="comment" cols="30" rows="5"></textarea></div>
+                  <div class="rightTab"><textarea name="comments" id="comment" cols="30" rows="5" placeholder="Comment..."></textarea></div>
          </div>
 
          <button type="submit">Submit</button>
