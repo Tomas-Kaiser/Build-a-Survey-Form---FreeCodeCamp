@@ -6,6 +6,7 @@ body {
 header {
    text-align: center;
    font-family: Lobster, serif;
+   font-size: 1.3em;
 }
 
 main {
@@ -29,7 +30,6 @@ main {
 .labels {
    width: 45%;
    text-align: right;
-   position: relative;
    margin: auto 0px;
 
 }
@@ -39,8 +39,17 @@ main {
    display: inline-block;
    padding: 5px;
    width: 40%;
-   position: relative;
-   left: 10px;
+   margin-left: 5px;
+}
+
+.rightTab.radio {
+   height: 80px;
+   display: flex;
+   align-items: center;
+}
+
+#checkbox {
+   padding: 13px 0 13px 5px;
 }
 
 #checkbox {
@@ -52,11 +61,27 @@ main {
 .input-field {
    height: 20px;
    width: 220px;
-   padding: 5px; 
+   padding: 5px;
+   font-size: 1.02em; 
 }
 
 .select-field {
    height: 34px;
    width: 234px;
    padding: 5px; 
+   font-size: 1.02em;
+}
+
+#comment {
+   font-size: 1.05em;
+}
+
+button {
+   width: 25%;
+   height: 50px;
+   font-size: 1.2em;
+   background: rgb(206, 245, 205);
+   font-weight: bold;
+   border: 2px solid black;
+   border-radius: 10px;
 }
