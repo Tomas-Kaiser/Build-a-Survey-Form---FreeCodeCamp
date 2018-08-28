@@ -154,9 +154,29 @@ button:hover {
 
 @media only screen and (max-width: 690px) {
    .rowTab {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 2px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2px;
+   }
+
+   .labels {
+        text-align: center;
+   }
+
+   .input-field {
+        width: 95%;
+   }
+
+   .select-field {
+        width: 100%;
+   }
+
+   button {
+       width: 50%;
+   }
+
+   #comment {
+       width: 90%;
    }
 }
