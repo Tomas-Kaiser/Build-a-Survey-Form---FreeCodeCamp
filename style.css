@@ -204,4 +204,8 @@ footer a:hover {
    #comment {
        width: 90%;
    }
+
+   footer {
+       text-align: center;
+   }
 }
